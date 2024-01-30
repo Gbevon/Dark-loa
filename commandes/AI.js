@@ -6,12 +6,31 @@ const axios = require('axios');
 
 
 
-zokou({nomCom:"bot",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"panel",reaction:"🌏",categorie:"jeux"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("oui je vous ecoute.")}
+    {return repondre("🛡️Résultats Duels🛡️
+
+▔▔▔▔W▔O▔H▔B▔▔▔▔▔
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+
+
+
+
+
+
+
+▔▔▔▔W▔O▔H▔B▔▔▔▔▔
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+MODOS✍️:
+Arènes 🏟️:
+Récompenses💰 :10000💰
+
+     
+▔▔G▔A▔M▔M▔I▔N▔G▔
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔")}
     //var quest = arg.join(' ');
   try{
     
