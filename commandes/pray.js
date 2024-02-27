@@ -2,7 +2,7 @@ const { zokou } = require('../framework/zokou');
 
 zokou(
     {
-        nomCom: 'dark',
+        nomCom: 'pray',
         categorie: 'loryse'
     },
     async (dest, zk, commandeOptions) => {
